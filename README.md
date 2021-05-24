@@ -3,7 +3,7 @@
 This GitHub Action allows you to create [Check Runs](https://developer.github.com/v3/checks/runs/#create-a-check-run) directly from your GitHub Action workflow. While each job of a workflow already creates a Check Run, this Action allows to include `annotations`, `images`, `actions` or any other parameters supported by the [Check Runs API](https://developer.github.com/v3/checks/runs/#parameters).
 
 ## Usage
-
+4
 The following shows how to publish a Check Run which will have the same status as your job and contains the output of another action. This will be shown predominantly in a Pull Request or on the workflow run.
 
 ```
