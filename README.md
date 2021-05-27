@@ -4,7 +4,7 @@ This GitHub Action allows you to create [Check Runs](https://developer.github.co
 
 ## Usage
 4
-The following shows how to publish a Check Run which will have the same status as your job and contains the output of another action. This will be shown predominantly in a Pull Request or on the workflow run.
+The following shows how to publish a Check Run which will have the same status as your job and contains the output of another action. This will be shown predominantly in a Pull Request or on the workflow run. tesg
 
 ```
 name: "build-test"
