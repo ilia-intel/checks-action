@@ -112,6 +112,7 @@ jobs:
 
   test_with_annotations_from_run:
     runs-on: ubuntu-latest
+    if: 1==0
     steps:
     - uses: actions/checkout@v1
     - id: annotations
