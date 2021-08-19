@@ -22,10 +22,10 @@ jobs:
     - uses: ./
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        name: Test Basic Success (Implicit)
+        name: XXXXX
         conclusion: success
         output: |
-          {"summary":"Test was a success","text_description":"This is a text description of the annotations and images\nWith more stuff\nAnd more\n# and more\n *more* \n"}
+          {"summary":"Test was a success","text_description":"This is A text description of the annotations and images\nWith more stuff\nAnd more\n# and more\n *more* \n"}
 
   test_basic_failure:
     runs-on: ubuntu-latest
