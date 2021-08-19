@@ -96,6 +96,7 @@ jobs:
   ## With annotations
   test_with_annotations:
     runs-on: ubuntu-latest
+    if: 1==0
     steps:
     - uses: actions/checkout@v1
     - uses: ./
